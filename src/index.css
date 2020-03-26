@@ -1,0 +1,295 @@
+body {
+  font-size: 15px;
+  line-height: 1.5;
+  font-family: "Lato", sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #ffffff;
+}
+
+/*GLOBAL*/
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #3121b5bf;
+}
+
+.dark {
+  background-color: #3121b5bf;
+  color: #ffffff;
+}
+
+.current {
+  color: red;
+}
+
+/*INDEX PAGE*/
+
+/*top*/
+#top {
+  background: url("/images/ecb_logo.png") no-repeat;
+  width: 100%;
+  height: 150px;
+}
+
+/*header*/
+
+header {
+  background-color: #3121b5bf;
+  color: #ffffff;
+  min-height: 34px;
+  height: 48px;
+  border-bottom: 2px solid red;
+  /*
+  https://developer.mozilla.org/en-US/docs/Web/CSS/position
+  */
+  /*
+	position: sticky;
+	top : 0px;  
+  */
+}
+
+header nav {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+header nav ul li {
+  display: inline;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 18px;
+  margin-right: 10px;
+}
+
+header nav ul li a:hover {
+  color: #3121b5bf;
+  background-color: #ffffff;
+}
+
+/**/
+header nav ul li ul {
+  border-bottom: 2px solid black;
+  display: none;
+  width: 200px;
+  position: absolute;
+}
+
+header nav ul li ul li {
+  display: block;
+}
+
+header nav ul li ul li a {
+  background: #ffffff;
+  display: block;
+  color: #3121b5bf;
+  padding: 10px;
+  font-size: 10px;
+}
+
+header nav ul li ul li a:hover {
+  background-color: #3121b5bf;
+  color: #ffffff;
+}
+
+/*showcase*/
+
+#showcase {
+  min-height: 454px;
+  background: url("/images/slider1.jpg") no-repeat;
+  background-size: 100%;
+}
+
+/*newsleter*/
+
+#newsletter {
+  background-color: #3121b5bf;
+}
+
+#newsletter p {
+  color: #ffffff;
+  text-align: center;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+/*main-col*/
+article#main-col {
+  float: left;
+  width: 65%;
+}
+
+article#main-col p {
+}
+
+/* article#main-col li {
+  list-style-image: url("/images/bullet.png");
+} */
+
+/*sidebar*/
+aside#sidebar {
+  float: right;
+  width: 30%;
+  margin-top: 10px;
+  padding-left: 25px;
+}
+
+aside#sidebar a {
+  text-decoration: none;
+  color: #ffffff;
+}
+aside#sidebar h1 {
+  color: #ffffff;
+}
+
+aside#sidebar li {
+  text-align: left;
+}
+
+aside#sidebar img {
+  width: 20%;
+  height: 60px;
+}
+
+/*Recruiter*/
+
+#recruiter li {
+  display: inline;
+  margin-right: 10px;
+}
+
+#recruiter img {
+  height: 90px;
+  width: 90px;
+}
+
+#images_1 {
+  text-align: center;
+  border: 3px solid red;
+}
+
+/*footer*/
+footer {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: red;
+  text-align: center;
+  color: #ffffff;
+}
+
+/*CONTACT US PAGE*/
+
+#contact table {
+  width: 80%;
+  text-align: center;
+  border: 2px solid red;
+  margin-left: 125px;
+  margin-top: 10px;
+}
+#contact table th {
+  background-color: #3121b5bf;
+  color: #ffffff;
+}
+
+#map {
+  width: 100%;
+}
+
+/*PAY FEE PAGE */
+#payfee a {
+  text-decoration: none;
+  font-size: 25px;
+  margin-left: 462px;
+}
+
+/*BOG page*/
+#bogs dl dt {
+  line-height: 2;
+}
+#bogs dl dt {
+  color: #3121b5bf;
+  font-size: 20px;
+}
+
+/*About PAGE*/
+
+article#about_child {
+  float: left;
+  width: 65%;
+}
+
+aside#about_sidebar {
+  background: red;
+  float: right;
+  width: 30%;
+  margin-top: 270px;
+  padding: 10px;
+}
+
+aside#about_sidebar #about_sidebar_data {
+  float: right;
+  margin-right: 90px;
+  margin-top: 10px;
+}
+
+aside#about_sidebar #about_sidebar_img {
+  float: left;
+  margin: 15px;
+}
+
+aside#about_sidebar #about_sidebar_data h1 {
+  color: #ffffff;
+}
+
+aside#about_sidebar #about_sidebar_data p {
+  color: #ffffff;
+}
+
+aside#about_sidebar #about_sidebar_img img {
+  width: 90px;
+  height: 90px;
+}
+
+/*DEPARTMENTS PAGE*/
+#department ul li {
+  background-color: #3121b5bf;
+}
+#department ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #ffffff;
+  padding: 15px;
+}
+
+#department ul li a:hover {
+  background-color: red;
+}
+
+/*
+Pop Up form CSS
+*/
+
+.popup {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  right: 25%;
+  bottom: 25%;
+  margin: auto;
+  background-color: white;
+  border: 1px solid black;
+}
